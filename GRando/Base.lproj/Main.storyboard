@@ -81,7 +81,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="34z-fU-f2U">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="34z-fU-f2U" customClass="CircuitCollectionViewCell">
                                         <rect key="frame" x="28.5" y="0.0" width="327" height="113"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pAe-Hf-ERt">
@@ -141,7 +141,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPf-t3-Yhs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="xMf-lm-JsE"/>
             </objects>
-            <point key="canvasLocation" x="2544.9275362318845" y="69.642857142857139"/>
+            <point key="canvasLocation" x="2512" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NKa-dV-2Fu">
