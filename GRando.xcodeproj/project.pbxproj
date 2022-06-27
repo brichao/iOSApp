@@ -13,8 +13,6 @@
 		566ED54428225BA00003C881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566ED54228225BA00003C881 /* Main.storyboard */; };
 		566ED54628225BA10003C881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566ED54528225BA10003C881 /* Assets.xcassets */; };
 		566ED54928225BA10003C881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566ED54728225BA10003C881 /* LaunchScreen.storyboard */; };
-		566ED55128225BEA0003C881 /* montagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 566ED55028225BEA0003C881 /* montagne.jpg */; };
-		566ED559282261A50003C881 /* grenoble-map.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 566ED558282261A50003C881 /* grenoble-map.jpeg */; };
 		5690293F2869E75E00B6CD54 /* hiking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5690293E2869E75E00B6CD54 /* hiking.jpg */; };
 		56A07FFE284744AA00F03B6B /* ViewControllerListeCircuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A07FFD284744AA00F03B6B /* ViewControllerListeCircuit.swift */; };
 		56A08000284744BA00F03B6B /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A07FFF284744BA00F03B6B /* ViewControllerMap.swift */; };
@@ -34,8 +32,6 @@
 		566ED54528225BA10003C881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566ED54828225BA10003C881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		566ED54A28225BA10003C881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		566ED55028225BEA0003C881 /* montagne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = montagne.jpg; path = ../../Downloads/montagne.jpg; sourceTree = "<group>"; };
-		566ED558282261A50003C881 /* grenoble-map.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grenoble-map.jpeg"; path = "../../Downloads/grenoble-map.jpeg"; sourceTree = "<group>"; };
 		5690293E2869E75E00B6CD54 /* hiking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hiking.jpg; path = GRando/Assets.xcassets/hiking.imageset/hiking.jpg; sourceTree = "<group>"; };
 		56A07FFD284744AA00F03B6B /* ViewControllerListeCircuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerListeCircuit.swift; sourceTree = "<group>"; };
 		56A07FFF284744BA00F03B6B /* ViewControllerMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
@@ -61,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				5690293E2869E75E00B6CD54 /* hiking.jpg */,
-				566ED558282261A50003C881 /* grenoble-map.jpeg */,
-				566ED55028225BEA0003C881 /* montagne.jpg */,
 				566ED53B28225BA00003C881 /* GRando */,
 				566ED53A28225BA00003C881 /* Products */,
 			);
@@ -155,9 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566ED55128225BEA0003C881 /* montagne.jpg in Resources */,
 				566ED54928225BA10003C881 /* LaunchScreen.storyboard in Resources */,
-				566ED559282261A50003C881 /* grenoble-map.jpeg in Resources */,
 				5690293F2869E75E00B6CD54 /* hiking.jpg in Resources */,
 				566ED54628225BA10003C881 /* Assets.xcassets in Resources */,
 				566ED54428225BA00003C881 /* Main.storyboard in Resources */,

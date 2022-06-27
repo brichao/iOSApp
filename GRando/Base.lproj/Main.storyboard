@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SKZ-hv-MIC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SKZ-hv-MIC">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="montagne.jpg" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bao-Nx-Huz">
-                                <rect key="frame" x="-33" y="0.0" width="481" height="343"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="montagne" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bao-Nx-Huz">
+                                <rect key="frame" x="-33" y="0.0" width="481" height="299"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GRANDO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnR-bJ-5db">
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pg-1P-tyv">
-                                <rect key="frame" x="10" y="390" width="395" height="217"/>
+                                <rect key="frame" x="10" y="350" width="395" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Liste des circuits">
@@ -41,15 +41,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHa-aS-Aos">
-                                <rect key="frame" x="10" y="637" width="395" height="201"/>
+                                <rect key="frame" x="10" y="605" width="395" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Circuits sur carte">
-                                    <backgroundConfiguration key="background" image="grenoble-map.jpeg"/>
+                                    <backgroundConfiguration key="background" image="grenoble-map"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="a3a-RV-UPG" kind="show" id="G4d-TA-zHl"/>
+                                    <segue destination="fEn-Bt-rPk" kind="show" id="ODr-ld-vFv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -122,27 +122,6 @@
             </objects>
             <point key="canvasLocation" x="1718.840579710145" y="69.642857142857139"/>
         </scene>
-        <!--View Controller Map-->
-        <scene sceneID="MI6-eb-O2U">
-            <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="a3a-RV-UPG" customClass="ViewControllerMap" customModule="GRando" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="f5K-H4-B6Z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="UKC-o1-lPZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="xMf-lm-JsE" appends="YES" id="8eM-G6-PKY"/>
-                        </connections>
-                    </view>
-                    <navigationItem key="navigationItem" id="5sy-ha-T2K"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jPf-t3-Yhs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="xMf-lm-JsE"/>
-            </objects>
-            <point key="canvasLocation" x="2544.9275362318845" y="69.642857142857139"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="NKa-dV-2Fu">
             <objects>
@@ -161,11 +140,38 @@
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
+        <!--View Controller Map-->
+        <scene sceneID="5lO-W6-4Z0">
+            <objects>
+                <viewController id="fEn-Bt-rPk" customClass="ViewControllerMap" customModule="GRando" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hxA-gp-aLR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5vo-ko-nZX">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yqR-UW-vvi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5vo-ko-nZX" firstAttribute="leading" secondItem="yqR-UW-vvi" secondAttribute="leading" id="Bxf-xQ-8LS"/>
+                            <constraint firstItem="5vo-ko-nZX" firstAttribute="top" secondItem="yqR-UW-vvi" secondAttribute="top" id="IjL-oG-bQG"/>
+                            <constraint firstItem="yqR-UW-vvi" firstAttribute="bottom" secondItem="5vo-ko-nZX" secondAttribute="bottom" id="Lm6-dg-SOZ"/>
+                            <constraint firstItem="yqR-UW-vvi" firstAttribute="trailing" secondItem="5vo-ko-nZX" secondAttribute="trailing" id="PC2-zh-Efi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NhH-3h-Ne2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxt-Zt-nnc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2554" y="70"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="grenoble-map.jpeg" width="860" height="454"/>
+        <image name="grenoble-map" width="860" height="454"/>
         <image name="hiking" width="640" height="427"/>
-        <image name="montagne.jpg" width="460.79998779296875" height="390"/>
+        <image name="montagne" width="1920" height="1625"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
