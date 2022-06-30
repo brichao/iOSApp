@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Merci d&apos;accepter l&apos;autorisation pour accéder à votre localisation.</string>
 </dict>
 </plist>
